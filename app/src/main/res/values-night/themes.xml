@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HalEki" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Dark Mode Colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Background Colors for Dark Mode -->
+        <item name="android:colorBackground">@color/backgroundDark</item>
+
+        <!-- Text Colors for Dark Mode -->
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+
+        <!-- Custom Fonts -->
+        <item name="android:fontFamily">@font/montserrat</item>
+
+        <!-- Button Styles in Dark Mode -->
+        <item name="buttonStyle">@style/CustomButton</item>
+
+        <!-- Error and Success Colors -->
+        <item name="colorError">@color/errorColor</item>
+        <item name="colorOnPrimary">@color/buttonText</item>
+    </style>
+</resources>

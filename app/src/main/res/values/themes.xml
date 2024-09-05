@@ -1,0 +1,31 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HalEki" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Background Colors -->
+        <item name="android:colorBackground">@color/backgroundLight</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+
+        <!-- Status Bar and Navigation Bar -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+
+        <!-- Custom Fonts -->
+        <item name="android:fontFamily">@font/montserrat</item>
+
+        <!-- Custom Button Styles -->
+        <item name="buttonStyle">@style/CustomButton</item>
+
+        <!-- Error and Success Colors -->
+        <item name="colorError">@color/errorColor</item>
+        <item name="colorOnPrimary">@color/buttonText</item>
+    </style>
+
+    <style name="Theme.HalEki" parent="Base.Theme.HalEki" />
+</resources>
